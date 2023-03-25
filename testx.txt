@@ -1,0 +1,12 @@
+ public static void demoReadAll() {
+try {
+byte[] bytes = Files.readALLBytes (Paths.get("country.txt"));
+Strings = new String (bytes);
+System.out.println(s);
+} catch (IOException e) {
+e.printStackTrace();
+I
+}
+
+finish 
+edit from SuperEditor
